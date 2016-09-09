@@ -1,7 +1,7 @@
 var CACHE_NAME = 'my-cache-v1';
 var urlsToCache = [
-	'/offline.html',
-	'/images/skyline_compressed.jpg'
+	'./offline.html',
+	'./images/skyline_compressed.jpg'
 ];
 
 self.addEventListener('install', function(event) {
